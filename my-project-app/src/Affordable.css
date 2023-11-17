@@ -1,0 +1,19 @@
+
+
+.affordable-container {  
+    padding: 20px;  
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .affordable-heading {
+    color: #333; /* Set your desired heading color */
+    font-size: 28px; /* Set your desired font size for the heading */
+  }
+  
+  .affordable-paragraph {
+    color: #666; /* Set your desired paragraph text color */
+    font-size: 16px; /* Set your desired font size for the paragraph */
+    margin-top:5px; /* Adjust spacing from the heading */
+  }
+  

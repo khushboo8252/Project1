@@ -1,0 +1,94 @@
+
+/* FaqsComponent */
+
+/* Style for the overall container */
+.faqs-container {
+  width: 85%;
+  margin: auto;
+  padding: 20px;
+ 
+}
+
+/* Style for the FAQ section */
+.faqs-section {
+  margin-top:15px;
+  border-radius: 10px;
+  padding-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  background-color:white;
+}
+
+/* Style for individual FAQ items */
+.faq-item {
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+/* Style for FAQ item headings */
+.faq-item h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style for FAQ item paragraphs */
+.faq-item p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+hr{
+  color: rgb(168, 166, 166);
+}
+
+
+/* Happy Customer.css */
+
+.main-container {
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.first-div {
+  margin-bottom: 20px;
+}
+
+.sub-div {
+  width: 200px; /* Set your desired width */
+  height: 200px; /* Set your desired height */
+  margin: 10px; /* Add margin if needed */
+  padding: 3px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+.slick-arrow {
+  font-size: 20px;
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+/* Optionally, you can use flex-wrap to control wrapping behavior */
+.faq-container {
+  flex-wrap: wrap;
+}
+
+

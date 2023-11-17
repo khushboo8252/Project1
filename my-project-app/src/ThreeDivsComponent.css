@@ -1,0 +1,72 @@
+/* ThreeDivsComponent.css */
+
+.component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background-color:rgb(168, 167, 167); /* Set your desired background color */
+    color:black; /* Set your desired text color */
+    padding: 20px;
+  }
+  
+  .firstDiv {
+    text-align: left;
+  }
+  
+  .revImage {
+    width: 90px; /* Set your desired width */
+  }
+  
+  .middleDiv ul,
+  .lastDiv ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+  }
+ 
+  .middleDiv {
+    text-align: center;
+  }
+  
+  .middleDiv ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Display li elements vertically */
+  }
+  
+  .middleDiv li {
+    margin-bottom: 10px; /* Adjust spacing between li elements */
+    font-size: 16px; /* Set your desired font size */
+  }
+  .middleDiv li,
+  .lastDiv li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px; /* Set your desired font size */
+  }
+  
+  
+  .lastDiv h2 {
+    margin-top: 20px;
+    font-size: 20px; /* Set your desired font size */
+  }
+  
+  .lastDiv h3 {
+    font-size: 18px; /* Set your desired font size */
+    margin-top: 10px;
+  }
+  
+  .lastDiv a {
+    display: block;
+    margin-top: 5px;
+    color:white; /* Set your desired text color */
+    text-decoration: none;
+  }
+  
